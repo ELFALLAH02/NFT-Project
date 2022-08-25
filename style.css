@@ -105,16 +105,32 @@ select {
   }
 }
 /*------------------------------*/
+.hero_section{
+  background-image: url(Assets/SVG/background.svg);
+}
+#cl_header{
+  background-color: var(--clr-primary-400);
+}
+
+  
+
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5PX ;
   margin-top: -1em;
+  background-color: var(--clr-primary-400);
 }
 .continer{
   margin:64px;
   margin-top: 20px;
+  background-color: var(--clr-primary-400);
+  
+}
+.hero_continer{
+  margin:64px;
+
 }
 li,a{
     text-decoration: none;
@@ -158,20 +174,19 @@ nav{
 .wrapper{
   display: grid;
   justify-items: center;
-}
-#shape{
+  margin-top: 40px;
+  gap: 35px;
   
 }
-h1{
-  font-family: var(--ff-primary-400);
-font-size: 70px;
-font-weight: 600;
-line-height: 69px;
-letter-spacing: 0em;
-text-align: center;
 
+h1{
+    font-family: var(--ff-primary-400);
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 #W_span{
   color: var(--clr-primary-btn-400);
 }
-
